@@ -6,10 +6,8 @@ import BookList from './components/BookList/BookList';
 import fetchBooks from './fetchBooks';
 
 const RootDiv = styled.div`
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
+  min-height: 100%;
+  padding-bottom: 1rem;
   background-color: ${props => props.theme.color.background};
   font-family: ${props => props.theme.font.main};
   color: ${props => props.theme.color.onBackground};
